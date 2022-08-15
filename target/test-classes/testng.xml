@@ -3,8 +3,8 @@
 <suite name="All Test Suite">
     <test name="BasisTechAssignment_apiTest">
         <classes>
-<!--            <class name="NegativeTest"/>-->
-<!--            <class name="PositiveTest"/>-->
+            <class name="NegativeTest"/>
+            <class name="PositiveTest"/>
         </classes>
     </test>
 </suite>

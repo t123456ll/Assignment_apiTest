@@ -63,12 +63,11 @@ public class NegativeTest extends BaseTest{
                 queryParam("start_date", "2022-08-01").
                 queryParam("end_date", "2022-08-11").
                 queryParam("api_key", APIKEY).
-                when().
+        when().
                 get(baseURI).
-                then().
+        then().
                 assertThat().statusCode(400).
-                assertThat().body(containsString("Date Format Exception"))
-                ;
+                assertThat().body(containsString("Date Format Exception"));
     }
 
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="TestSuite" time="4.385" errors="0" skipped="0">
+<testsuite tests="11" failures="0" name="TestSuite" time="28.278" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="18.0.2+0"/>
@@ -59,9 +59,15 @@
     <property name="java.vendor.version" value="Homebrew"/>
     <property name="sun.stdout.encoding" value="UTF-8"/>
   </properties>
-  <testcase classname="NegativeTest" name="negativeTest_ExceedTimeRange_ShouldFail" time="1.967"/>
-  <testcase classname="NegativeTest" name="negativeTest_NoAPIKey_ShouldFail" time="0.544"/>
-  <testcase classname="NegativeTest" name="negativeTest_NoParam_ShouldFail" time="0.514"/>
-  <testcase classname="NegativeTest" name="negativeTest_ValidQueryDefaultStartDate_ShouldFail" time="0.676"/>
-  <testcase classname="NegativeTest" name="negativeTest_WrongDateFormat_ShouldFail" time="0.684"/>
+  <testcase classname="NegativeTest" name="negativeTest_ExceedTimeRange_ShouldFail" time="2.145"/>
+  <testcase classname="NegativeTest" name="negativeTest_NoAPIKey_ShouldFail" time="0.528"/>
+  <testcase classname="NegativeTest" name="negativeTest_NoParam_ShouldFail" time="0.521"/>
+  <testcase classname="NegativeTest" name="negativeTest_ValidQueryDefaultStartDate_ShouldFail" time="0.66"/>
+  <testcase classname="NegativeTest" name="negativeTest_WrongDateFormat_ShouldFail" time="0.644"/>
+  <testcase classname="PositiveTest" name="positiveTest_NoDate_ShouldSucceed" time="0.827"/>
+  <testcase classname="PositiveTest" name="positiveTest_StartDateLaterThanEndDate_ShouldSucceed" time="4.975"/>
+  <testcase classname="PositiveTest" name="positiveTest_ValidQueryDefaultAPIKey_ShouldSucceed" time="4.128"/>
+  <testcase classname="PositiveTest" name="positiveTest_ValidQueryDefaultEndDate_ShouldSucceed" time="12.164"/>
+  <testcase classname="PositiveTest" name="positiveTest_ValidQueryNoDate_ShouldSucceed" time="1.047"/>
+  <testcase classname="PositiveTest" name="positiveTest_ValidQuery_ShouldSucceed" time="0.639"/>
 </testsuite>

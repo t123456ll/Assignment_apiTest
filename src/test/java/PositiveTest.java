@@ -72,7 +72,7 @@ public class PositiveTest extends BaseTest{
     @Test
     void positiveTest_StartDateLaterThanEndDate_ShouldSucceed(){
         given().
-                queryParam("start_date", "2022-08-05").
+                queryParam("start_date", "2022-08-06").
                 queryParam("end_date", "2022-08-04").
                 queryParam("api_key", APIKEY).
         when().

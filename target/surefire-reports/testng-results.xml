@@ -1,33 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-15T00:00:09 EDT" name="Command line suite" finished-at="2022-08-15T00:00:13 EDT" duration-ms="4420">
+  <suite started-at="2022-08-15T11:24:39 EDT" name="All Test Suite" finished-at="2022-08-15T11:25:08 EDT" duration-ms="28317">
     <groups>
     </groups>
-    <test started-at="2022-08-15T00:00:09 EDT" name="Command line test" finished-at="2022-08-15T00:00:13 EDT" duration-ms="4420">
+    <test started-at="2022-08-15T11:24:39 EDT" name="BasisTechAssignment_apiTest" finished-at="2022-08-15T11:25:08 EDT" duration-ms="28317">
       <class name="NegativeTest">
-        <test-method signature="negativeTest_ExceedTimeRange_ShouldFail()[pri:0, instance:NegativeTest@7e9a5fbe]" started-at="2022-08-15T00:00:09 EDT" name="negativeTest_ExceedTimeRange_ShouldFail" finished-at="2022-08-15T00:00:11 EDT" duration-ms="1966" status="PASS">
+        <test-method signature="negativeTest_ExceedTimeRange_ShouldFail()[pri:0, instance:NegativeTest@3bbc39f8]" started-at="2022-08-15T11:24:39 EDT" name="negativeTest_ExceedTimeRange_ShouldFail" finished-at="2022-08-15T11:24:41 EDT" duration-ms="2144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeTest_ExceedTimeRange_ShouldFail -->
-        <test-method signature="negativeTest_NoAPIKey_ShouldFail()[pri:0, instance:NegativeTest@7e9a5fbe]" started-at="2022-08-15T00:00:11 EDT" name="negativeTest_NoAPIKey_ShouldFail" finished-at="2022-08-15T00:00:12 EDT" duration-ms="544" status="PASS">
+        <test-method signature="negativeTest_NoAPIKey_ShouldFail()[pri:0, instance:NegativeTest@3bbc39f8]" started-at="2022-08-15T11:24:41 EDT" name="negativeTest_NoAPIKey_ShouldFail" finished-at="2022-08-15T11:24:42 EDT" duration-ms="527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeTest_NoAPIKey_ShouldFail -->
-        <test-method signature="negativeTest_NoParam_ShouldFail()[pri:0, instance:NegativeTest@7e9a5fbe]" started-at="2022-08-15T00:00:12 EDT" name="negativeTest_NoParam_ShouldFail" finished-at="2022-08-15T00:00:12 EDT" duration-ms="514" status="PASS">
+        <test-method signature="negativeTest_NoParam_ShouldFail()[pri:0, instance:NegativeTest@3bbc39f8]" started-at="2022-08-15T11:24:42 EDT" name="negativeTest_NoParam_ShouldFail" finished-at="2022-08-15T11:24:42 EDT" duration-ms="521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeTest_NoParam_ShouldFail -->
-        <test-method signature="negativeTest_ValidQueryDefaultStartDate_ShouldFail()[pri:0, instance:NegativeTest@7e9a5fbe]" started-at="2022-08-15T00:00:12 EDT" name="negativeTest_ValidQueryDefaultStartDate_ShouldFail" finished-at="2022-08-15T00:00:13 EDT" duration-ms="675" status="PASS">
+        <test-method signature="negativeTest_ValidQueryDefaultStartDate_ShouldFail()[pri:0, instance:NegativeTest@3bbc39f8]" started-at="2022-08-15T11:24:42 EDT" name="negativeTest_ValidQueryDefaultStartDate_ShouldFail" finished-at="2022-08-15T11:24:43 EDT" duration-ms="660" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeTest_ValidQueryDefaultStartDate_ShouldFail -->
-        <test-method signature="negativeTest_WrongDateFormat_ShouldFail()[pri:0, instance:NegativeTest@7e9a5fbe]" started-at="2022-08-15T00:00:13 EDT" name="negativeTest_WrongDateFormat_ShouldFail" finished-at="2022-08-15T00:00:13 EDT" duration-ms="685" status="PASS">
+        <test-method signature="negativeTest_WrongDateFormat_ShouldFail()[pri:0, instance:NegativeTest@3bbc39f8]" started-at="2022-08-15T11:24:43 EDT" name="negativeTest_WrongDateFormat_ShouldFail" finished-at="2022-08-15T11:24:44 EDT" duration-ms="643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeTest_WrongDateFormat_ShouldFail -->
       </class> <!-- NegativeTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+      <class name="PositiveTest">
+        <test-method signature="positiveTest_NoDate_ShouldSucceed()[pri:0, instance:PositiveTest@35083305]" started-at="2022-08-15T11:24:44 EDT" name="positiveTest_NoDate_ShouldSucceed" finished-at="2022-08-15T11:24:45 EDT" duration-ms="827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveTest_NoDate_ShouldSucceed -->
+        <test-method signature="positiveTest_StartDateLaterThanEndDate_ShouldSucceed()[pri:0, instance:PositiveTest@35083305]" started-at="2022-08-15T11:24:45 EDT" name="positiveTest_StartDateLaterThanEndDate_ShouldSucceed" finished-at="2022-08-15T11:24:50 EDT" duration-ms="4974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveTest_StartDateLaterThanEndDate_ShouldSucceed -->
+        <test-method signature="positiveTest_ValidQueryDefaultAPIKey_ShouldSucceed()[pri:0, instance:PositiveTest@35083305]" started-at="2022-08-15T11:24:50 EDT" name="positiveTest_ValidQueryDefaultAPIKey_ShouldSucceed" finished-at="2022-08-15T11:24:54 EDT" duration-ms="4129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveTest_ValidQueryDefaultAPIKey_ShouldSucceed -->
+        <test-method signature="positiveTest_ValidQueryDefaultEndDate_ShouldSucceed()[pri:0, instance:PositiveTest@35083305]" started-at="2022-08-15T11:24:54 EDT" name="positiveTest_ValidQueryDefaultEndDate_ShouldSucceed" finished-at="2022-08-15T11:25:06 EDT" duration-ms="12163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveTest_ValidQueryDefaultEndDate_ShouldSucceed -->
+        <test-method signature="positiveTest_ValidQueryNoDate_ShouldSucceed()[pri:0, instance:PositiveTest@35083305]" started-at="2022-08-15T11:25:06 EDT" name="positiveTest_ValidQueryNoDate_ShouldSucceed" finished-at="2022-08-15T11:25:07 EDT" duration-ms="1046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveTest_ValidQueryNoDate_ShouldSucceed -->
+        <test-method signature="positiveTest_ValidQuery_ShouldSucceed()[pri:0, instance:PositiveTest@35083305]" started-at="2022-08-15T11:25:07 EDT" name="positiveTest_ValidQuery_ShouldSucceed" finished-at="2022-08-15T11:25:08 EDT" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveTest_ValidQuery_ShouldSucceed -->
+      </class> <!-- PositiveTest -->
+    </test> <!-- BasisTechAssignment_apiTest -->
+  </suite> <!-- All Test Suite -->
 </testng-results>
